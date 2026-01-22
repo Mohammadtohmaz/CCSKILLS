@@ -139,14 +139,17 @@ Produce 15-20 names across all techniques:
 |------|---------------|----------------|--------------|
 ```
 
-### Step 3: Domain Availability Guidance
+### Step 3: Domain Availability Verification
 
 Reference `references/domain-availability-guide.md` for TLD strategies.
 
-**Availability Indicators:**
+**Initial Assessment:**
 - **Likely Available**: Unique portmanteau, uncommon respelling
 - **Check Required**: Common pattern, short name
 - **Likely Taken**: Dictionary word, popular pattern
+
+**IMPORTANT: Always verify with WHOIS lookup before confirming availability.**
+Initial assessments are educated guesses. Run `whois [domain]` to confirm.
 
 **Recommended TLDs by Type:**
 - **.com** - Universal, highest value
@@ -156,7 +159,54 @@ Reference `references/domain-availability-guide.md` for TLD strategies.
 - **.ai** - AI/ML products
 - **.dev** - Developer tools
 
-### Step 4: Top Recommendations
+### Step 4: Brand Conflict Search
+
+Before recommending any name, check for existing brands:
+
+**Search These Sources:**
+1. **App Stores** - Search Apple App Store and Google Play for exact name
+2. **Google Search** - "[name] app", "[name] company", "[name] [industry]"
+3. **Social Media** - Check if @name handles exist on Twitter, Instagram
+4. **Crunchbase/LinkedIn** - Search for existing companies
+5. **Trademark Database** - USPTO.gov for US marks
+
+**Red Flags:**
+- Existing app in same category (even different spelling)
+- Established company with similar name in adjacent industry
+- Active social handles with significant following
+- Registered trademark in same class
+
+**Example:** "Pickster" seemed good but had an NFL Pick'em app by Pickster LLC - same sports/predictions space = conflict.
+
+### Step 5: Reputation Check (If Name Exists Elsewhere)
+
+If a similar brand exists in a different industry, check its reputation:
+
+**Check:**
+- Trustpilot reviews
+- Sitejabber ratings
+- BBB complaints
+- Google "[name] reviews" or "[name] scam"
+
+**Why This Matters:** If "Winster.com" has 1.8-star reviews for a gaming site, you don't want that association even if your app is different.
+
+### Step 6: Misspelling & Variation Strategy
+
+**When Misspellings Work:**
+- One letter change with same pronunciation (Pickster → **Pikster**)
+- Dropped vowel that's still readable (Flickr, Tumblr)
+- Letter swap that looks intentional (Quick → Kwik)
+
+**When Misspellings DON'T Work:**
+- Multiple letter changes (hard to remember)
+- Changes that affect pronunciation
+- Random number additions (Pick3ter)
+- Similar to existing brand's misspelling
+- Creates confusion about how to spell in word-of-mouth
+
+**The "Radio Test":** If someone says the name out loud, can the listener find your website? If "Pikster" is said, they might try pickster.com first - but they'll find you at pikster.ai quickly.
+
+### Step 7: Top Recommendations
 
 ```markdown
 ## Top 5 Recommendations
@@ -164,10 +214,24 @@ Reference `references/domain-availability-guide.md` for TLD strategies.
 ### 1. [Name] - Top Pick
 - **Pronunciation**: [phonetic guide]
 - **Technique**: [which technique used]
-- **Domain**: [suggested TLD and alternatives]
+- **Domain**: [verified availability status]
+- **Brand Conflicts**: [search results summary]
 - **Why It Works**: [detailed explanation]
 - **Considerations**: [any potential issues]
 ```
+
+### Step 8: Iterative Refinement
+
+Brand naming is rarely one-shot. Expect iteration:
+
+1. **First pass**: Generate 15-20 names across techniques
+2. **User narrows**: User picks 2-3 favorites
+3. **Deep verification**: Check domains, brand conflicts, reputation
+4. **Issues found**: Often top picks have problems (taken domain, existing brand)
+5. **Pivot**: Generate variations or new names based on what user liked
+6. **Final selection**: User picks from verified options
+
+**Key Lesson:** Don't promise a name is available until you've verified it. Always present initial names as "likely available" pending verification.
 
 ## Example Output
 
@@ -260,11 +324,13 @@ targeting beginners. Tone should be friendly but credible.
 
 ## Next Steps
 
-1. Check exact domain availability at registrar
-2. Trademark search for top choices
-3. Check social handle availability (@pipular)
-4. Get feedback from target audience
-5. Register quickly - good names get taken fast
+1. **Verify domains** with WHOIS lookup (not just guessing)
+2. **Search App Stores** for existing apps with same/similar name
+3. **Google the name** + your industry keywords
+4. **Check social handles** (@name on Twitter, Instagram)
+5. **Trademark search** at USPTO.gov
+6. **Reputation check** if similar brand exists elsewhere
+7. **Register quickly** - good names get taken fast
 
 ## Tips for Best Results
 

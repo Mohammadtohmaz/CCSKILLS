@@ -38,6 +38,8 @@ Strategies for checking and securing domain names for your brand.
 
 ## Availability Prediction
 
+**IMPORTANT:** These are initial guesses only. Always verify with WHOIS lookup.
+
 ### Likely Available
 - Unique portmanteau combinations (Pipular, FinTopus)
 - Uncommon phonetic respellings (Tradr, Sticka)
@@ -57,6 +59,26 @@ Strategies for checking and securing domain names for your brand.
 - Popular brand patterns (anything + ly/ify)
 - Short names (< 5 characters)
 - Common industry terms alone
+
+## WHOIS Verification
+
+**Never confirm availability without WHOIS lookup.**
+
+### Command Line Check
+```bash
+whois [domain.tld]
+```
+
+### What to Look For
+- **"No match"** or **"NOT FOUND"** = Available
+- **Registration date** = Taken
+- **Registrar info** = Taken
+
+### Bulk Checking
+For multiple domains, use registrar search tools:
+- Namecheap bulk search
+- Instant Domain Search (real-time)
+- Domainr (shows alternatives)
 
 ## Domain Checking Tools
 
@@ -128,6 +150,38 @@ If exact handle taken:
 - KnowEm (knowem.com) - 500+ platforms
 - Namecheckr (namecheckr.com) - Quick check
 
+## Brand Conflict Search
+
+Beyond domains, check for existing brands that could cause confusion.
+
+### App Store Search
+| Store | What to Search |
+|-------|----------------|
+| Apple App Store | Exact name, similar spellings |
+| Google Play | Exact name, similar spellings |
+| Product Hunt | Name as product |
+
+**Example Conflict:** "Pickster" had an NFL Pick'em app by Pickster LLC - same sports/predictions category = conflict even though different sport.
+
+### Company Search
+| Source | URL |
+|--------|-----|
+| Crunchbase | crunchbase.com |
+| LinkedIn Companies | linkedin.com/company/[name] |
+| Google | "[name] company" "[name] startup" |
+
+### Reputation Check
+If a similar brand exists in different industry, check its reputation:
+
+| Site | Purpose |
+|------|---------|
+| Trustpilot | Consumer reviews |
+| Sitejabber | Business reviews |
+| BBB | Complaints |
+| Google | "[name] reviews" "[name] scam" |
+
+**Why This Matters:** Winster.com (gaming site) has 1.8-star reviews. Even if your app is different, that negative association hurts.
+
 ## Trademark Considerations
 
 ### Before Finalizing
@@ -147,6 +201,29 @@ If exact handle taken:
 - Unique combinations
 - Non-descriptive names
 - Names with distinct spelling
+
+## Misspelling Strategy
+
+### When Misspellings Work
+| Original | Misspelling | Why It Works |
+|----------|-------------|--------------|
+| Pickster | **Pikster** | One letter, same sound |
+| Flicker | **Flickr** | Dropped vowel, recognizable |
+| Quick | **Kwik** | Phonetic swap, intentional |
+
+### When Misspellings Fail
+- Multiple changes (Pick3ster, Pixxster)
+- Pronunciation changes
+- Looks like typo, not brand
+- Similar to existing misspelling brand
+
+### The Radio Test
+If someone says your brand name out loud:
+1. Can the listener spell it correctly?
+2. Will they find your website on first try?
+3. If not first try, within 2 attempts?
+
+"Pikster" passes: Might try "pickster" first, but "pikster" is next logical guess.
 
 ## Quick Domain Checklist
 
