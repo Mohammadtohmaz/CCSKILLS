@@ -164,6 +164,19 @@ Comprehensive reference for discovering successful products across industries.
 - Check industry associations for annual conferences
 - Trade shows often showcase new products
 
+### MENA Region
+- GITEX Global (Dubai) - Largest tech event in Middle East
+- Seamless Middle East (Dubai) - Fintech, payments, e-commerce
+- ArabNet (Beirut/Riyadh) - Digital business conference
+- STEP Conference (Dubai) - Emerging tech startups
+- Future Investment Initiative (Riyadh) - "Davos in the Desert"
+
+### Additional Fintech Events
+- Paris Fintech Forum - European fintech leaders
+- Singapore Fintech Festival - Asia's largest fintech event
+- London Blockchain Week - Crypto/fintech
+- Forex Expo Dubai - Trading industry
+
 ## Alternative Data Sources
 
 ### Job Postings (Growth Signals)
@@ -180,6 +193,18 @@ Comprehensive reference for discovering successful products across industries.
 - SEC EDGAR (sec.gov/edgar) - US public companies
 - Companies House (UK)
 - OpenCorporates (opencorporates.com)
+
+## Newsletters & Curated Content
+
+| Newsletter | Focus | Frequency |
+|------------|-------|-----------|
+| TLDR | Tech news digest | Daily |
+| CB Insights Newsletter | Startup/VC trends | Weekly |
+| Morning Brew | Business/tech | Daily |
+| Fintech Today | Fintech news | Daily |
+| The Hustle | Startups/business | Daily |
+| Lenny's Newsletter | Product/growth | Weekly |
+| Stratechery | Tech strategy | Weekly |
 
 ## Scouting Workflow
 
