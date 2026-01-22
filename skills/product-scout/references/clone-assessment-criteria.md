@@ -81,13 +81,13 @@ How much does the product's value depend on user base?
 - Data: More data = better product (AI/ML)
 - Platform: More developers = more apps (ecosystems)
 
-### 5. Geographic Opportunity
+### 5. Geographic & Market Opportunity
 
-Is there an underserved geographic market?
+Is there an underserved geographic market or customer segment?
 
 | Score | Criteria |
 |-------|----------|
-| 9-10 | US-only product, clear international gap, no localization |
+| 9-10 | US-only product, clear international gap, no localization, underserved segments |
 | 7-8 | Regional focus, clear expansion opportunity |
 | 5-6 | Some geographic coverage, gaps in specific regions |
 | 3-4 | Global product, localized in major markets |
@@ -99,6 +99,14 @@ Is there an underserved geographic market?
 - Regulatory arbitrage
 - Cultural adaptation needs
 - Local competitor strength
+
+**Market Gap Opportunities:**
+- Underserved customer segments (e.g., beginners vs. pros)
+- Adjacent industries not served (e.g., US sports → football)
+- Different use cases (e.g., B2B vs. B2C)
+- Cultural preferences (e.g., accumulator bets popular in MENA)
+
+**Example:** PropGPT serves US sports bettors. Market gap = Arabic-speaking football bettors. Same concept, different sport + language + region = 9/10 opportunity.
 
 ### 6. Pricing Room
 
@@ -117,6 +125,15 @@ Is there space for a different pricing strategy?
 - Value-based: Different feature bundles
 - Usage-based: Pay-as-you-go alternative
 - Freemium: Free tier not available from incumbent
+- Regional PPP: Adjust for purchasing power parity
+
+**Regional Pricing Multipliers:**
+| Region | Multiplier | Example ($29 US price) |
+|--------|------------|------------------------|
+| US/EU | 1.0x | $29/mo |
+| MENA | 0.5-0.7x | $15-20/mo |
+| SE Asia | 0.3-0.5x | $9-15/mo |
+| LATAM | 0.4-0.6x | $12-17/mo |
 
 ### 7. Feature Gap Opportunity
 

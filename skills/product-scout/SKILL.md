@@ -17,13 +17,31 @@ Systematic discovery and analysis of successful products across any industry, pr
 - Understanding pricing strategies in a niche
 - Discovering successful products in adjacent markets
 
+## Scouting Modes
+
+### Quick Scout (Default)
+Fast discovery producing a shortlist of 3-5 candidates with brief descriptions. Use when exploring options before committing to deep analysis.
+
+**Output:** Shortlist table with name, description, why interesting, initial score (1-5)
+
+### Deep Analysis
+Comprehensive analysis of a specific product. Use after Quick Scout when user selects a candidate.
+
+**Output:** Full analysis report with 7-dimension scoring
+
+**Workflow:** Quick Scout → User picks candidate → Deep Analysis → brand-namer skill for naming
+
+---
+
 ## Scouting Process
 
 ### Step 1: Define Search Parameters
 
 Gather from the user:
 - **Industry/Niche**: What market or category to scout
-- **Geography**: Global, regional, or specific country focus
+- **Scout Mode**: Quick Scout (default) or Deep Analysis of specific product
+- **Target Region**: Where will the clone operate (affects pricing, localization)
+- **Geography of Products**: Global, regional, or specific country focus
 - **Stage**: Startups, scale-ups, or established companies
 - **Revenue Model**: SaaS, marketplace, e-commerce, etc.
 - **Funding Status**: Bootstrapped, VC-backed, or any
@@ -98,6 +116,13 @@ Reference `references/analysis-framework.md` for detailed methodology.
 - [Missing features mentioned in reviews]
 - [Feature requests from users]
 
+### Market Gaps Identified
+- [Underserved regions/languages]
+- [Underserved customer segments]
+- [Adjacent use cases not addressed]
+
+**Example:** PropGPT serves US sports bettors in English. Market gap = Arabic-speaking football bettors (different sport, different language, different region).
+
 ---
 
 ## 3. Pricing Structure
@@ -108,6 +133,18 @@ Reference `references/analysis-framework.md` for detailed methodology.
 | Basic | $X/mo | [features] |
 | Pro | $Y/mo | [features] |
 | Enterprise | Custom | [features] |
+
+### Regional Pricing Considerations
+If targeting a different region than the original product:
+
+| Region | PPP Adjustment | Notes |
+|--------|----------------|-------|
+| US/EU | 1.0x (baseline) | Full pricing |
+| MENA | 0.5-0.7x | Lower purchasing power |
+| SE Asia | 0.3-0.5x | Price sensitive |
+| LATAM | 0.4-0.6x | Varies by country |
+
+**Example:** US product at $29/mo → MENA clone at $15-20/mo may capture same market segment.
 
 ---
 
@@ -212,6 +249,16 @@ that have raised Series A funding in the last 12 months.
 - **Mention your constraints**: Budget, timeline, team size affect recommendations
 - **Share differentiation ideas**: Helps assess if the angle is viable
 - **Request multiple products**: Comparison reveals market patterns
+- **Start with Quick Scout**: Don't deep-dive until you've seen the landscape
+
+## Next Steps After Scouting
+
+Once you've identified a clone candidate:
+
+1. **Use brand-namer skill** to generate names for your clone
+2. **Verify domain/brand availability** before committing
+3. **Write a PRD** based on the analysis report
+4. **Validate with target users** in your region before building
 
 ## Resources
 
