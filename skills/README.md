@@ -12,6 +12,8 @@ This folder contains installed Claude Code skills that extend Claude's capabilit
 | [skill-creator](#skill-creator) | Create new Claude Code skills | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
 | [domain-name-brainstormer](#domain-name-brainstormer) | Generate creative domain names and check availability | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
 | [stripe-integration](#stripe-integration) | Implement PCI-compliant Stripe payment processing | [wshobson](https://github.com/wshobson/agents) |
+| [product-scout](#product-scout) | Scout and analyze successful products for cloning opportunities | Custom |
+| [brand-namer](#brand-namer) | Generate creative brand names using proven naming techniques | Custom |
 
 ---
 
@@ -91,6 +93,32 @@ Implement Stripe payment processing for robust, PCI-compliant payment flows incl
 **Example:**
 ```
 Help me set up a Stripe checkout session for a monthly subscription at $20/month.
+```
+
+---
+
+### product-scout
+
+Systematically find and analyze successful products in any industry to identify opportunities for cloning or rebranding. Produces comprehensive reports with business model breakdowns, feature analysis, competitive landscape, and clone viability scores.
+
+**Use when:** Researching competitors, evaluating market opportunities, or analyzing products to potentially clone for different markets.
+
+**Example:**
+```
+Scout successful fintech products in the "buy now pay later" space. I'm looking for products to clone for the Middle East market.
+```
+
+---
+
+### brand-namer
+
+Generate creative, brandable names using 6 proven naming techniques: portmanteaus, phonetic respelling, tech prefixes/suffixes, industry terms + twist, and gaming/casual slang. Provides 15-20 options with pronunciation guides, domain patterns, and rationale.
+
+**Use when:** Naming a new startup, product, app, or rebranding venture.
+
+**Example:**
+```
+Generate brand names for a forex trading education platform targeting beginners. Tone should be friendly but credible.
 ```
 
 ---
